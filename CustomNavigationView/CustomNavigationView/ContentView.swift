@@ -54,17 +54,90 @@ struct Home : View {
                         }
                     }
                 )
+                .navigationBarTitle("", displayMode: .inline)
         }
+        .navigationViewStyle(StackNavigationViewStyle()) // nav for ipad
     }
 }
 
 struct Content : View {
     var body: some View {
         List {
+            // Content 1
             VStack {
                 // Thumbnail
                 ZStack(alignment: .bottomTrailing) {
                     Image("content1")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                    Text("10:00")
+                        .padding(.all, 5)
+                        .background(Color.black)
+                        .foregroundColor(Color.white)
+                        .font(.caption)
+                        .cornerRadius(5)
+                        .padding(.trailing, 5)
+                        .padding(.bottom, 5)
+                }
+                
+                // Video Name
+                HStack(spacing: 20) {
+                    Image("profile")
+                        .resizable()
+                        .frame(width: 40, height: 40)
+                        .clipShape(Circle())
+                    VStack(alignment: .leading) {
+                        Text("4K Nature View of Japan")
+                            .font(.headline)
+                        Text("Nature View at Tokyo, Japan with 4K Scale Up Videography")
+                            .font(.caption)
+                        
+                    }
+                    Spacer()
+                    Image(systemName: "list.bullet")
+                }
+            }
+            
+            // Content 2
+            VStack {
+                // Thumbnail
+                ZStack(alignment: .bottomTrailing) {
+                    Image("content2")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                    Text("10:00")
+                        .padding(.all, 5)
+                        .background(Color.black)
+                        .foregroundColor(Color.white)
+                        .font(.caption)
+                        .cornerRadius(5)
+                        .padding(.trailing, 5)
+                        .padding(.bottom, 5)
+                }
+                
+                // Video Name
+                HStack(spacing: 20) {
+                    Image("profile")
+                        .resizable()
+                        .frame(width: 40, height: 40)
+                        .clipShape(Circle())
+                    VStack(alignment: .leading) {
+                        Text("4K Nature View of Japan")
+                            .font(.headline)
+                        Text("Nature View at Tokyo, Japan with 4K Scale Up Videography")
+                            .font(.caption)
+                        
+                    }
+                    Spacer()
+                    Image(systemName: "list.bullet")
+                }
+            }
+            
+            // Content 3
+            VStack {
+                // Thumbnail
+                ZStack(alignment: .bottomTrailing) {
+                    Image("content3")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                     Text("10:00")
