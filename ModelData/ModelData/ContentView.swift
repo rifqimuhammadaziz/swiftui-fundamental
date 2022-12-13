@@ -14,17 +14,18 @@ struct VehicleModel : Identifiable {
     let image : String
     let price : Int
     let location : String
-    let rating : Int
-    
+    let ratingStar : Int
+    let ratingCount : Int
     
     // Constructor
-    init(id: Int, name: String, image: String, price: Int, location: String, rating: Int) {
+    init(id: Int, name: String, image: String, price: Int, location: String, ratingStar: Int, ratingCount: Int) {
         self.id = id
         self.name = name
         self.image = image
         self.price = price
         self.location = location
-        self.rating = rating
+        self.ratingStar = ratingStar
+        self.ratingCount = ratingCount
     }
 }
 
@@ -32,20 +33,22 @@ struct ContentView: View {
     
     // New Data
     let data : [VehicleModel] = [
-        VehicleModel(id: 1, name: "NissanGTR35", image: "NissanGTR35", price: 5000000000, location: "Semarang, Jawa Tengah", rating: 5),
-        VehicleModel(id: 2, name: "CivicTurbo", image: "CivicTurbo", price: 5000000000, location: "Semarang, Jawa Tengah", rating: 5),
-        VehicleModel(id: 3, name: "PajeroSport", image: "PajeroSport", price: 5000000000, location: "Semarang, Jawa Tengah", rating: 5),
-        VehicleModel(id: 4, name: "Fortuner", image: "Fortuner", price: 5000000000, location: "Semarang, Jawa Tengah", rating: 5),
-        VehicleModel(id: 5, name: "Veloz", image: "Veloz", price: 5000000000, location: "Semarang, Jawa Tengah", rating: 5),
-        VehicleModel(id: 6, name: "LandCruiser", image: "LandCruiser", price: 5000000000, location: "Semarang, Jawa Tengah", rating: 5)
+        VehicleModel(id: 1, name: "Nissan GTR 35", image: "NissanGTR35", price: 950000000, location: "Semarang, Jawa Tengah", ratingStar: 3, ratingCount: 33),
+        VehicleModel(id: 2, name: "Civic Turbo", image: "CivicTurbo", price: 450000000, location: "Semarang, Jawa Tengah", ratingStar: 5, ratingCount: 33),
+        VehicleModel(id: 3, name: "Pajero Sport", image: "PajeroSport", price: 350000000, location: "Semarang, Jawa Tengah", ratingStar: 5, ratingCount: 33),
+        VehicleModel(id: 4, name: "Fortuner", image: "Fortuner", price: 380000000, location: "Semarang, Jawa Tengah", ratingStar: 5, ratingCount: 33),
+        VehicleModel(id: 5, name: "Veloz", image: "Veloz", price: 400000000, location: "Semarang, Jawa Tengah", ratingStar: 5, ratingCount: 33),
+        VehicleModel(id: 6, name: "Land Cruiser", image: "LandCruiser", price: 800000000, location: "Semarang, Jawa Tengah", ratingStar: 5, ratingCount: 33)
     ]
+    
+    @State var cartCount: Int = 0
     
     var body: some View {
         NavigationView {
             ScrollView {
                 ForEach(data) { row in
                     VStack(spacing: 10) {
-                        Vehicle(data: row)
+                        Vehicle(data: row, cartCount: self.$cartCount)
                     }
                     .padding()
                 }
@@ -57,14 +60,35 @@ struct ContentView: View {
                         Button(action: {print("It Works!")}) {
                             Image(systemName: "person.fill")
                         }
-                        Button(action: {print("It Works!")}) {
-                            Image(systemName: "cart.fill")
-                        }
+                        
+                        // Get Data State
+                        CartView(cartCount: $cartCount)
                     }
             )
         }
         .accentColor(Color.secondary)
         .navigationViewStyle(StackNavigationViewStyle()) // landscape handler
+    }
+}
+
+struct CartView : View {
+    
+    @Binding var cartCount: Int
+    
+    var body: some View {
+        ZStack {
+            Button(action: {print("It Works!")}) {
+                Image(systemName: "cart.fill")
+            }
+            Text("\(cartCount)")
+                .foregroundColor(Color.white)
+                .frame(width: 10, height: 10)
+                .font(.body)
+                .padding(5)
+                .background(Color.red)
+                .clipShape(Circle())
+                .offset(x: 10, y: -10)
+        }
     }
 }
 
@@ -78,6 +102,7 @@ struct ContentView_Previews: PreviewProvider {
 struct Vehicle : View {
     
     let data : VehicleModel
+    @Binding var cartCount : Int
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -116,34 +141,44 @@ struct Vehicle : View {
             
             HStack {
                 HStack {
-                    ForEach(0..<self.data.rating) {
+                    ForEach(0..<self.data.ratingStar) {
                         items in
                         Image(systemName: "star.fill")
                             .foregroundColor(Color.yellow)
                     }
+                    Text("\(self.data.ratingCount)")
                 }
             }
             .padding(.leading)
             .padding(.trailing)
             
-            Button(action: {print("It Works!")}) {
-                HStack {
-                    Spacer()
-                    HStack {
-                        Image(systemName: "cart")
-                        Text("Add to Cart")
-                            .font(.callout)
-                            .padding()
-                    }
-                    Spacer()
-                }
-            }
-            .background(Color.green)
-            .foregroundColor(Color.white)
-            .cornerRadius(10)
-            .padding()
+            BuyButton(cartCount : $cartCount)
         }
         .background(Color("MyGray"))
         .cornerRadius(15)
+    }
+}
+
+struct BuyButton : View {
+    
+    @Binding var cartCount : Int
+    
+    var body: some View {
+        Button(action: {self.cartCount += 1}) {
+            HStack {
+                Spacer()
+                HStack {
+                    Image(systemName: "cart")
+                    Text("BUY")
+                        .font(.callout)
+                        .padding()
+                }
+                Spacer()
+            }
+        }
+        .background(Color.green)
+        .foregroundColor(Color.white)
+        .cornerRadius(10)
+        .padding()
     }
 }
