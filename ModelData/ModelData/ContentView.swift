@@ -7,28 +7,6 @@
 
 import SwiftUI
 
-// Model Data
-struct VehicleModel : Identifiable {
-    let id : Int
-    let name : String
-    let image : String
-    let price : Int
-    let location : String
-    let ratingStar : Int
-    let ratingCount : Int
-    
-    // Constructor
-    init(id: Int, name: String, image: String, price: Int, location: String, ratingStar: Int, ratingCount: Int) {
-        self.id = id
-        self.name = name
-        self.image = image
-        self.price = price
-        self.location = location
-        self.ratingStar = ratingStar
-        self.ratingCount = ratingCount
-    }
-}
-
 struct ContentView: View {
     
     // New Data
@@ -41,14 +19,15 @@ struct ContentView: View {
         VehicleModel(id: 6, name: "Land Cruiser", image: "LandCruiser", price: 800000000, location: "Semarang, Jawa Tengah", ratingStar: 5, ratingCount: 33)
     ]
     
-    @State var cartCount: Int = 0
+//    @State var cartCount: Int = 0
+    @ObservedObject var globalData = GlobalObject()
     
     var body: some View {
         NavigationView {
             ScrollView {
                 ForEach(data) { row in
                     VStack(spacing: 10) {
-                        Vehicle(data: row, cartCount: self.$cartCount)
+                        Vehicle(data: row, cart: self.globalData)
                     }
                     .padding()
                 }
@@ -61,8 +40,10 @@ struct ContentView: View {
                             Image(systemName: "person.fill")
                         }
                         
-                        // Get Data State
-                        CartView(cartCount: $cartCount)
+                        NavigationLink(destination: DetailView(globalData: globalData)) {
+                            // Get Data State
+                            CartView(cart: globalData)
+                        }
                     }
             )
         }
@@ -73,14 +54,15 @@ struct ContentView: View {
 
 struct CartView : View {
     
-    @Binding var cartCount: Int
+//    @Binding var cartCount: Int
+
+    @ObservedObject var cart : GlobalObject
     
     var body: some View {
         ZStack {
-            Button(action: {print("It Works!")}) {
-                Image(systemName: "cart.fill")
-            }
-            Text("\(cartCount)")
+            Image(systemName: "cart.fill")
+            
+            Text("\(self.cart.amount)")
                 .foregroundColor(Color.white)
                 .frame(width: 10, height: 10)
                 .font(.body)
@@ -102,7 +84,9 @@ struct ContentView_Previews: PreviewProvider {
 struct Vehicle : View {
     
     let data : VehicleModel
-    @Binding var cartCount : Int
+//    @Binding var cartCount : Int
+
+    @ObservedObject var cart : GlobalObject
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -152,7 +136,7 @@ struct Vehicle : View {
             .padding(.leading)
             .padding(.trailing)
             
-            BuyButton(cartCount : $cartCount)
+            BuyButton(cart: cart)
         }
         .background(Color("MyGray"))
         .cornerRadius(15)
@@ -161,10 +145,12 @@ struct Vehicle : View {
 
 struct BuyButton : View {
     
-    @Binding var cartCount : Int
+//    @Binding var cartCount : Int
+    
+    @ObservedObject var cart : GlobalObject
     
     var body: some View {
-        Button(action: {self.cartCount += 1}) {
+        Button(action: {self.cart.amount += 1}) {
             HStack {
                 Spacer()
                 HStack {
@@ -180,5 +166,25 @@ struct BuyButton : View {
         .foregroundColor(Color.white)
         .cornerRadius(10)
         .padding()
+    }
+}
+
+struct DetailView : View {
+    
+    @ObservedObject var globalData : GlobalObject
+    
+    var body: some View {
+        NavigationView {
+            Text("Detail")
+                .navigationBarTitle("Detail")
+                .navigationBarItems(
+                    trailing:
+                        HStack(spacing: 20) {
+                            Button(action: {print()}) {
+                                Image(systemName: "person.fill")
+                            }
+                            CartView(cart: globalData)
+                        })
+        }
     }
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3731036C2948A12A003C523B /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3731036B2948A12A003C523B /* DataModel.swift */; };
+		3731036E2948A1C0003C523B /* GlobalObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3731036D2948A1C0003C523B /* GlobalObject.swift */; };
 		37CB1C1529481D05006EA392 /* ModelDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CB1C1429481D05006EA392 /* ModelDataApp.swift */; };
 		37CB1C1729481D05006EA392 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CB1C1629481D05006EA392 /* ContentView.swift */; };
 		37CB1C1929481D06006EA392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CB1C1829481D06006EA392 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3731036B2948A12A003C523B /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		3731036D2948A1C0003C523B /* GlobalObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalObject.swift; sourceTree = "<group>"; };
 		37CB1C1129481D05006EA392 /* ModelData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CB1C1429481D05006EA392 /* ModelDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDataApp.swift; sourceTree = "<group>"; };
 		37CB1C1629481D05006EA392 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				37CB1C1629481D05006EA392 /* ContentView.swift */,
 				37CB1C1829481D06006EA392 /* Assets.xcassets */,
 				37CB1C1A29481D06006EA392 /* Preview Content */,
+				3731036B2948A12A003C523B /* DataModel.swift */,
+				3731036D2948A1C0003C523B /* GlobalObject.swift */,
 			);
 			path = ModelData;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				37CB1C1729481D05006EA392 /* ContentView.swift in Sources */,
+				3731036E2948A1C0003C523B /* GlobalObject.swift in Sources */,
 				37CB1C1529481D05006EA392 /* ModelDataApp.swift in Sources */,
+				3731036C2948A12A003C523B /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
