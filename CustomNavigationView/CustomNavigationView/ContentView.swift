@@ -97,108 +97,60 @@ struct Content : View {
     var body: some View {
         List {
             // Content 1
-            VStack {
-                // Thumbnail
-                ZStack(alignment: .bottomTrailing) {
-                    Image("content1")
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                    Text("10:00")
-                        .padding(.all, 5)
-                        .background(Color.black)
-                        .foregroundColor(Color.white)
-                        .font(.caption)
-                        .cornerRadius(5)
-                        .padding(.trailing, 5)
-                        .padding(.bottom, 5)
-                }
-                
-                // Video Name
-                HStack(spacing: 20) {
-                    Image("profile")
-                        .resizable()
-                        .frame(width: 40, height: 40)
-                        .clipShape(Circle())
-                    VStack(alignment: .leading) {
-                        Text("4K Nature View of Japan")
-                            .font(.headline)
-                        Text("Nature View at Tokyo, Japan with 4K Scale Up Videography")
-                            .font(.caption)
-                        
-                    }
-                    Spacer()
-                    Image(systemName: "list.bullet")
-                }
-            }
+            CellContent(imageContent: "content1", profileContent: "profile", title: "4K Nature View of Tokyo, Japan", description: "Nature View in Tokyo, Japan with 4K 60FPS", duration: "10:00")
             
             // Content 2
-            VStack {
-                // Thumbnail
-                ZStack(alignment: .bottomTrailing) {
-                    Image("content2")
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                    Text("10:00")
-                        .padding(.all, 5)
-                        .background(Color.black)
-                        .foregroundColor(Color.white)
-                        .font(.caption)
-                        .cornerRadius(5)
-                        .padding(.trailing, 5)
-                        .padding(.bottom, 5)
-                }
-                
-                // Video Name
-                HStack(spacing: 20) {
-                    Image("profile")
-                        .resizable()
-                        .frame(width: 40, height: 40)
-                        .clipShape(Circle())
-                    VStack(alignment: .leading) {
-                        Text("4K Nature View of Japan")
-                            .font(.headline)
-                        Text("Nature View at Tokyo, Japan with 4K Scale Up Videography")
-                            .font(.caption)
-                        
-                    }
-                    Spacer()
-                    Image(systemName: "list.bullet")
-                }
-            }
+            CellContent(imageContent: "content2", profileContent: "profile", title: "4K Nature View of Tokyo, Japan", description: "Nature View in Tokyo, Japan with 4K 60FPS", duration: "10:00")
             
             // Content 3
-            VStack {
-                // Thumbnail
-                ZStack(alignment: .bottomTrailing) {
-                    Image("content3")
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                    Text("10:00")
-                        .padding(.all, 5)
-                        .background(Color.black)
-                        .foregroundColor(Color.white)
+            CellContent(imageContent: "content3", profileContent: "profile", title: "4K Nature View of Tokyo, Japan", description: "Nature View in Tokyo, Japan with 4K 60FPS", duration: "10:00")
+    
+        }
+    }
+}
+
+// Component Cell
+struct CellContent : View {
+    
+    // Props
+    var imageContent : String
+    var profileContent : String
+    var title : String
+    var description : String
+    var duration : String
+    
+    var body: some View {
+        VStack {
+            // Thumbnail
+            ZStack(alignment: .bottomTrailing) {
+                Image(imageContent)
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                Text(duration)
+                    .padding(.all, 5)
+                    .background(Color.black)
+                    .foregroundColor(Color.white)
+                    .font(.caption)
+                    .cornerRadius(5)
+                    .padding(.trailing, 5)
+                    .padding(.bottom, 5)
+            }
+            
+            // Video Name
+            HStack(spacing: 20) {
+                Image(profileContent)
+                    .resizable()
+                    .frame(width: 40, height: 40)
+                    .clipShape(Circle())
+                VStack(alignment: .leading) {
+                    Text(title)
+                        .font(.headline)
+                    Text(description)
                         .font(.caption)
-                        .cornerRadius(5)
-                        .padding(.trailing, 5)
-                        .padding(.bottom, 5)
+                    
                 }
-                
-                // Video Name
-                HStack(spacing: 20) {
-                    Image("profile")
-                        .resizable()
-                        .frame(width: 40, height: 40)
-                        .clipShape(Circle())
-                    VStack(alignment: .leading) {
-                        Text("4K Nature View of Japan")
-                            .font(.headline)
-                        Text("Nature View at Tokyo, Japan with 4K Scale Up Videography")
-                            .font(.caption)
-                        
-                    }
-                    Spacer()
-                    Image(systemName: "list.bullet")
-                }
+                Spacer()
+                Image(systemName: "list.bullet")
             }
         }
     }
