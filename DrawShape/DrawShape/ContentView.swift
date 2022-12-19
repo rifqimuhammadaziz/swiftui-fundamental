@@ -30,8 +30,8 @@ struct ContentView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(width: 200, height: 100)
-                .clipShape(Ellipse().rotation(Angle(degrees: 30)))
-                .overlay(Ellipse().rotation(Angle(degrees: 30)).stroke(Color.red, lineWidth: 5))
+                .clipShape(Ellipse().rotation(Angle(degrees: 60)))
+                .overlay(Ellipse().rotation(Angle(degrees: 60)).stroke(Color.red, lineWidth: 5))
         }.padding()
     }
 }
