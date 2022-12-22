@@ -13,11 +13,15 @@ import Combine
 class APIService : ObservableObject {
     
     let objectWillChange = ObservableObjectPublisher()
+    
     @Published var dataTotal = [Total]() {
         willSet {
             objectWillChange.send()
         }
     }
+    
+    @Published var isLoading = true
+    
     
     init() {
         guard let url = URL(string: "https://data.covid19.go.id/public/api/update.json") else {
@@ -33,6 +37,8 @@ class APIService : ObservableObject {
             
             // if result is exist / data found
             if let result = result {
+                self.isLoading = false
+                
                 DispatchQueue.main.async {
                     self.dataTotal = [result.update.total]
                     
