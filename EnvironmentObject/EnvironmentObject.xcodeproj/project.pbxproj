@@ -15,6 +15,7 @@
 		373103972948AB0F003C523B /* EnvironmentObjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373103962948AB0F003C523B /* EnvironmentObjectUITests.swift */; };
 		373103992948AB0F003C523B /* EnvironmentObjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373103982948AB0F003C523B /* EnvironmentObjectUITestsLaunchTests.swift */; };
 		373103A62948AB97003C523B /* AuthUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373103A52948AB97003C523B /* AuthUser.swift */; };
+		37E27DD02955FFD300F0E218 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E27DCF2955FFD300F0E218 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		373103962948AB0F003C523B /* EnvironmentObjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectUITests.swift; sourceTree = "<group>"; };
 		373103982948AB0F003C523B /* EnvironmentObjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		373103A52948AB97003C523B /* AuthUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUser.swift; sourceTree = "<group>"; };
+		37E27DCF2955FFD300F0E218 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		3731037A2948AB0C003C523B /* EnvironmentObject */ = {
 			isa = PBXGroup;
 			children = (
+				37E27DCE2955FFC900F0E218 /* Model */,
 				3731037B2948AB0D003C523B /* EnvironmentObjectApp.swift */,
 				3731037D2948AB0D003C523B /* ContentView.swift */,
 				3731037F2948AB0E003C523B /* Assets.xcassets */,
@@ -128,6 +131,14 @@
 				373103982948AB0F003C523B /* EnvironmentObjectUITestsLaunchTests.swift */,
 			);
 			path = EnvironmentObjectUITests;
+			sourceTree = "<group>";
+		};
+		37E27DCE2955FFC900F0E218 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37E27DCF2955FFD300F0E218 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +274,7 @@
 				3731037E2948AB0D003C523B /* ContentView.swift in Sources */,
 				373103A62948AB97003C523B /* AuthUser.swift in Sources */,
 				3731037C2948AB0D003C523B /* EnvironmentObjectApp.swift in Sources */,
+				37E27DD02955FFD300F0E218 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
