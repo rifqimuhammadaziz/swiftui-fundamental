@@ -11,6 +11,7 @@
 		376473D229596442007F51AF /* ShapesPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473D129596442007F51AF /* ShapesPractice.swift */; };
 		376473D429596FFD007F51AF /* ColorsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473D329596FFD007F51AF /* ColorsPractice.swift */; };
 		376473D629598498007F51AF /* GradientsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473D529598498007F51AF /* GradientsPractice.swift */; };
+		376473D829598903007F51AF /* IconsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473D729598903007F51AF /* IconsPractice.swift */; };
 		378B584829593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */; };
 		378B584A29593FA200A235C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378B584929593FA200A235C3 /* ContentView.swift */; };
 		378B584C29593FA400A235C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378B584B29593FA400A235C3 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		376473D129596442007F51AF /* ShapesPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesPractice.swift; sourceTree = "<group>"; };
 		376473D329596FFD007F51AF /* ColorsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsPractice.swift; sourceTree = "<group>"; };
 		376473D529598498007F51AF /* GradientsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsPractice.swift; sourceTree = "<group>"; };
+		376473D729598903007F51AF /* IconsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsPractice.swift; sourceTree = "<group>"; };
 		378B584429593FA200A235C3 /* SwiftfulThinkingBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingBootcampApp.swift; sourceTree = "<group>"; };
 		378B584929593FA200A235C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			children = (
 				376473D329596FFD007F51AF /* ColorsPractice.swift */,
 				376473D529598498007F51AF /* GradientsPractice.swift */,
+				376473D729598903007F51AF /* IconsPractice.swift */,
 				378B584929593FA200A235C3 /* ContentView.swift */,
 				376473D129596442007F51AF /* ShapesPractice.swift */,
 				378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */,
@@ -153,6 +156,7 @@
 				378B584A29593FA200A235C3 /* ContentView.swift in Sources */,
 				378B584829593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift in Sources */,
 				376473D229596442007F51AF /* ShapesPractice.swift in Sources */,
+				376473D829598903007F51AF /* IconsPractice.swift in Sources */,
 				376473D429596FFD007F51AF /* ColorsPractice.swift in Sources */,
 				376473D029595F11007F51AF /* TextPractice.swift in Sources */,
 			);
