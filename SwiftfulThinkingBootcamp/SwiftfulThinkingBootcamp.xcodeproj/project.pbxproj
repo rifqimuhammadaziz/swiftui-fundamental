@@ -20,6 +20,7 @@
 		378B584C29593FA400A235C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378B584B29593FA400A235C3 /* Assets.xcassets */; };
 		378B584F29593FA400A235C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378B584E29593FA400A235C3 /* Preview Assets.xcassets */; };
 		379977D5295D40A100B234D9 /* StacksPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977D4295D40A100B234D9 /* StacksPractice.swift */; };
+		379977D7295D4B3000B234D9 /* PaddingAndSpacerPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977D6295D4B3000B234D9 /* PaddingAndSpacerPractice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		378B584B29593FA400A235C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		378B584E29593FA400A235C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		379977D4295D40A100B234D9 /* StacksPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksPractice.swift; sourceTree = "<group>"; };
+		379977D6295D4B3000B234D9 /* PaddingAndSpacerPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingAndSpacerPractice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				376473DB295997CA007F51AF /* FramePractice.swift */,
 				376473DD29599C3A007F51AF /* BackgroundAndOverlayPractice.swift */,
 				379977D4295D40A100B234D9 /* StacksPractice.swift */,
+				379977D6295D4B3000B234D9 /* PaddingAndSpacerPractice.swift */,
 				378B584929593FA200A235C3 /* ContentView.swift */,
 				376473D129596442007F51AF /* ShapesPractice.swift */,
 				378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */,
@@ -172,6 +175,7 @@
 				376473DE29599C3A007F51AF /* BackgroundAndOverlayPractice.swift in Sources */,
 				376473D229596442007F51AF /* ShapesPractice.swift in Sources */,
 				376473D829598903007F51AF /* IconsPractice.swift in Sources */,
+				379977D7295D4B3000B234D9 /* PaddingAndSpacerPractice.swift in Sources */,
 				376473D429596FFD007F51AF /* ColorsPractice.swift in Sources */,
 				376473D029595F11007F51AF /* TextPractice.swift in Sources */,
 				379977D5295D40A100B234D9 /* StacksPractice.swift in Sources */,
