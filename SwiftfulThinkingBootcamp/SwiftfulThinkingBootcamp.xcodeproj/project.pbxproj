@@ -22,6 +22,7 @@
 		379977D5295D40A100B234D9 /* StacksPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977D4295D40A100B234D9 /* StacksPractice.swift */; };
 		379977D7295D4B3000B234D9 /* PaddingAndSpacerPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977D6295D4B3000B234D9 /* PaddingAndSpacerPractice.swift */; };
 		379977D9295D961400B234D9 /* SpacerPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977D8295D961400B234D9 /* SpacerPractice.swift */; };
+		379977DB295D9B4B00B234D9 /* InitializerPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977DA295D9B4B00B234D9 /* InitializerPractice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		379977D4295D40A100B234D9 /* StacksPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksPractice.swift; sourceTree = "<group>"; };
 		379977D6295D4B3000B234D9 /* PaddingAndSpacerPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingAndSpacerPractice.swift; sourceTree = "<group>"; };
 		379977D8295D961400B234D9 /* SpacerPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerPractice.swift; sourceTree = "<group>"; };
+		379977DA295D9B4B00B234D9 /* InitializerPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerPractice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				379977D4295D40A100B234D9 /* StacksPractice.swift */,
 				379977D6295D4B3000B234D9 /* PaddingAndSpacerPractice.swift */,
 				379977D8295D961400B234D9 /* SpacerPractice.swift */,
+				379977DA295D9B4B00B234D9 /* InitializerPractice.swift */,
 				378B584929593FA200A235C3 /* ContentView.swift */,
 				376473D129596442007F51AF /* ShapesPractice.swift */,
 				378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */,
@@ -179,6 +182,7 @@
 				376473DE29599C3A007F51AF /* BackgroundAndOverlayPractice.swift in Sources */,
 				376473D229596442007F51AF /* ShapesPractice.swift in Sources */,
 				376473D829598903007F51AF /* IconsPractice.swift in Sources */,
+				379977DB295D9B4B00B234D9 /* InitializerPractice.swift in Sources */,
 				379977D7295D4B3000B234D9 /* PaddingAndSpacerPractice.swift in Sources */,
 				376473D429596FFD007F51AF /* ColorsPractice.swift in Sources */,
 				376473D029595F11007F51AF /* TextPractice.swift in Sources */,
