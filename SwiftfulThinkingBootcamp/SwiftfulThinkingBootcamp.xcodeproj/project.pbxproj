@@ -24,6 +24,7 @@
 		379977D9295D961400B234D9 /* SpacerPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977D8295D961400B234D9 /* SpacerPractice.swift */; };
 		379977DB295D9B4B00B234D9 /* InitializerPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977DA295D9B4B00B234D9 /* InitializerPractice.swift */; };
 		379B655129693B7A00CC26A3 /* ForEachPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B655029693B7A00CC26A3 /* ForEachPractice.swift */; };
+		37DB4D68296D04B000947F63 /* ScrollViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DB4D67296D04B000947F63 /* ScrollViewPractice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		379977D8295D961400B234D9 /* SpacerPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerPractice.swift; sourceTree = "<group>"; };
 		379977DA295D9B4B00B234D9 /* InitializerPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerPractice.swift; sourceTree = "<group>"; };
 		379B655029693B7A00CC26A3 /* ForEachPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachPractice.swift; sourceTree = "<group>"; };
+		37DB4D67296D04B000947F63 /* ScrollViewPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPractice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				379977D8295D961400B234D9 /* SpacerPractice.swift */,
 				379977DA295D9B4B00B234D9 /* InitializerPractice.swift */,
 				379B655029693B7A00CC26A3 /* ForEachPractice.swift */,
+				37DB4D67296D04B000947F63 /* ScrollViewPractice.swift */,
 				378B584929593FA200A235C3 /* ContentView.swift */,
 				376473D129596442007F51AF /* ShapesPractice.swift */,
 				378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */,
@@ -184,6 +187,7 @@
 				378B584A29593FA200A235C3 /* ContentView.swift in Sources */,
 				378B584829593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift in Sources */,
 				376473DE29599C3A007F51AF /* BackgroundAndOverlayPractice.swift in Sources */,
+				37DB4D68296D04B000947F63 /* ScrollViewPractice.swift in Sources */,
 				376473D229596442007F51AF /* ShapesPractice.swift in Sources */,
 				376473D829598903007F51AF /* IconsPractice.swift in Sources */,
 				379977DB295D9B4B00B234D9 /* InitializerPractice.swift in Sources */,
