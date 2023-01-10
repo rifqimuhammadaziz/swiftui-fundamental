@@ -23,6 +23,7 @@
 		379977D7295D4B3000B234D9 /* PaddingAndSpacerPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977D6295D4B3000B234D9 /* PaddingAndSpacerPractice.swift */; };
 		379977D9295D961400B234D9 /* SpacerPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977D8295D961400B234D9 /* SpacerPractice.swift */; };
 		379977DB295D9B4B00B234D9 /* InitializerPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977DA295D9B4B00B234D9 /* InitializerPractice.swift */; };
+		379B655129693B7A00CC26A3 /* ForEachPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B655029693B7A00CC26A3 /* ForEachPractice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		379977D6295D4B3000B234D9 /* PaddingAndSpacerPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingAndSpacerPractice.swift; sourceTree = "<group>"; };
 		379977D8295D961400B234D9 /* SpacerPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerPractice.swift; sourceTree = "<group>"; };
 		379977DA295D9B4B00B234D9 /* InitializerPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerPractice.swift; sourceTree = "<group>"; };
+		379B655029693B7A00CC26A3 /* ForEachPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachPractice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				379977D6295D4B3000B234D9 /* PaddingAndSpacerPractice.swift */,
 				379977D8295D961400B234D9 /* SpacerPractice.swift */,
 				379977DA295D9B4B00B234D9 /* InitializerPractice.swift */,
+				379B655029693B7A00CC26A3 /* ForEachPractice.swift */,
 				378B584929593FA200A235C3 /* ContentView.swift */,
 				376473D129596442007F51AF /* ShapesPractice.swift */,
 				378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */,
@@ -174,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				376473DA29598DEE007F51AF /* ImagesPractice.swift in Sources */,
+				379B655129693B7A00CC26A3 /* ForEachPractice.swift in Sources */,
 				376473DC295997CA007F51AF /* FramePractice.swift in Sources */,
 				376473D629598498007F51AF /* GradientsPractice.swift in Sources */,
 				379977D9295D961400B234D9 /* SpacerPractice.swift in Sources */,
