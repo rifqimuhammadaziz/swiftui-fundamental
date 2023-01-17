@@ -24,6 +24,7 @@
 		378B584C29593FA400A235C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378B584B29593FA400A235C3 /* Assets.xcassets */; };
 		378B584F29593FA400A235C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378B584E29593FA400A235C3 /* Preview Assets.xcassets */; };
 		378C582229765DF6000E3A9C /* ExtractSubviewsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378C582129765DF6000E3A9C /* ExtractSubviewsPractice.swift */; };
+		378C582429766E2E000E3A9C /* BindingPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378C582329766E2E000E3A9C /* BindingPractice.swift */; };
 		379977D5295D40A100B234D9 /* StacksPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977D4295D40A100B234D9 /* StacksPractice.swift */; };
 		379977D7295D4B3000B234D9 /* PaddingAndSpacerPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977D6295D4B3000B234D9 /* PaddingAndSpacerPractice.swift */; };
 		379977D9295D961400B234D9 /* SpacerPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977D8295D961400B234D9 /* SpacerPractice.swift */; };
@@ -52,6 +53,7 @@
 		378B584B29593FA400A235C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		378B584E29593FA400A235C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		378C582129765DF6000E3A9C /* ExtractSubviewsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewsPractice.swift; sourceTree = "<group>"; };
+		378C582329766E2E000E3A9C /* BindingPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingPractice.swift; sourceTree = "<group>"; };
 		379977D4295D40A100B234D9 /* StacksPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksPractice.swift; sourceTree = "<group>"; };
 		379977D6295D4B3000B234D9 /* PaddingAndSpacerPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingAndSpacerPractice.swift; sourceTree = "<group>"; };
 		379977D8295D961400B234D9 /* SpacerPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerPractice.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				373E508D29729EB300B43486 /* StatePractice.swift */,
 				373E508F2972A52E00B43486 /* ExtractedFunctionPractice.swift */,
 				378C582129765DF6000E3A9C /* ExtractSubviewsPractice.swift */,
+				378C582329766E2E000E3A9C /* BindingPractice.swift */,
 				378B584929593FA200A235C3 /* ContentView.swift */,
 				376473D129596442007F51AF /* ShapesPractice.swift */,
 				378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */,
@@ -214,6 +217,7 @@
 				379977DB295D9B4B00B234D9 /* InitializerPractice.swift in Sources */,
 				379977D7295D4B3000B234D9 /* PaddingAndSpacerPractice.swift in Sources */,
 				376473D429596FFD007F51AF /* ColorsPractice.swift in Sources */,
+				378C582429766E2E000E3A9C /* BindingPractice.swift in Sources */,
 				376473D029595F11007F51AF /* TextPractice.swift in Sources */,
 				379977D5295D40A100B234D9 /* StacksPractice.swift in Sources */,
 				373E508A2972394400B43486 /* SafeAreaPractice.swift in Sources */,
