@@ -10,6 +10,7 @@
 		373E508A2972394400B43486 /* SafeAreaPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373E50892972394400B43486 /* SafeAreaPractice.swift */; };
 		373E508C29723E4000B43486 /* ButtonsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373E508B29723E4000B43486 /* ButtonsPractice.swift */; };
 		373E508E29729EB300B43486 /* StatePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373E508D29729EB300B43486 /* StatePractice.swift */; };
+		373E50902972A52E00B43486 /* ExtractedFunctionPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373E508F2972A52E00B43486 /* ExtractedFunctionPractice.swift */; };
 		376473D029595F11007F51AF /* TextPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473CF29595F11007F51AF /* TextPractice.swift */; };
 		376473D229596442007F51AF /* ShapesPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473D129596442007F51AF /* ShapesPractice.swift */; };
 		376473D429596FFD007F51AF /* ColorsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473D329596FFD007F51AF /* ColorsPractice.swift */; };
@@ -35,6 +36,7 @@
 		373E50892972394400B43486 /* SafeAreaPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaPractice.swift; sourceTree = "<group>"; };
 		373E508B29723E4000B43486 /* ButtonsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsPractice.swift; sourceTree = "<group>"; };
 		373E508D29729EB300B43486 /* StatePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePractice.swift; sourceTree = "<group>"; };
+		373E508F2972A52E00B43486 /* ExtractedFunctionPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionPractice.swift; sourceTree = "<group>"; };
 		376473CF29595F11007F51AF /* TextPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPractice.swift; sourceTree = "<group>"; };
 		376473D129596442007F51AF /* ShapesPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesPractice.swift; sourceTree = "<group>"; };
 		376473D329596FFD007F51AF /* ColorsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsPractice.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				373E50892972394400B43486 /* SafeAreaPractice.swift */,
 				373E508B29723E4000B43486 /* ButtonsPractice.swift */,
 				373E508D29729EB300B43486 /* StatePractice.swift */,
+				373E508F2972A52E00B43486 /* ExtractedFunctionPractice.swift */,
 				378B584929593FA200A235C3 /* ContentView.swift */,
 				376473D129596442007F51AF /* ShapesPractice.swift */,
 				378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */,
@@ -197,6 +200,7 @@
 				376473D629598498007F51AF /* GradientsPractice.swift in Sources */,
 				379977D9295D961400B234D9 /* SpacerPractice.swift in Sources */,
 				378B584A29593FA200A235C3 /* ContentView.swift in Sources */,
+				373E50902972A52E00B43486 /* ExtractedFunctionPractice.swift in Sources */,
 				378B584829593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift in Sources */,
 				376473DE29599C3A007F51AF /* BackgroundAndOverlayPractice.swift in Sources */,
 				373E508C29723E4000B43486 /* ButtonsPractice.swift in Sources */,
