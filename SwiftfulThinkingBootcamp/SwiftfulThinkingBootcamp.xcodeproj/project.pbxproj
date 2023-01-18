@@ -33,6 +33,7 @@
 		378C58302977CD55000E3A9C /* SheetsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378C582F2977CD55000E3A9C /* SheetsPractice.swift */; };
 		378C58322977D23F000E3A9C /* PopoverPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378C58312977D23F000E3A9C /* PopoverPractice.swift */; };
 		378C58342977D8AE000E3A9C /* NavigationViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378C58332977D8AE000E3A9C /* NavigationViewPractice.swift */; };
+		378C58362977E8B5000E3A9C /* ListPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378C58352977E8B5000E3A9C /* ListPractice.swift */; };
 		379977D5295D40A100B234D9 /* StacksPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977D4295D40A100B234D9 /* StacksPractice.swift */; };
 		379977D7295D4B3000B234D9 /* PaddingAndSpacerPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977D6295D4B3000B234D9 /* PaddingAndSpacerPractice.swift */; };
 		379977D9295D961400B234D9 /* SpacerPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977D8295D961400B234D9 /* SpacerPractice.swift */; };
@@ -70,6 +71,7 @@
 		378C582F2977CD55000E3A9C /* SheetsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsPractice.swift; sourceTree = "<group>"; };
 		378C58312977D23F000E3A9C /* PopoverPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverPractice.swift; sourceTree = "<group>"; };
 		378C58332977D8AE000E3A9C /* NavigationViewPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewPractice.swift; sourceTree = "<group>"; };
+		378C58352977E8B5000E3A9C /* ListPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPractice.swift; sourceTree = "<group>"; };
 		379977D4295D40A100B234D9 /* StacksPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksPractice.swift; sourceTree = "<group>"; };
 		379977D6295D4B3000B234D9 /* PaddingAndSpacerPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingAndSpacerPractice.swift; sourceTree = "<group>"; };
 		379977D8295D961400B234D9 /* SpacerPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerPractice.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				378C582F2977CD55000E3A9C /* SheetsPractice.swift */,
 				378C58312977D23F000E3A9C /* PopoverPractice.swift */,
 				378C58332977D8AE000E3A9C /* NavigationViewPractice.swift */,
+				378C58352977E8B5000E3A9C /* ListPractice.swift */,
 				378B584929593FA200A235C3 /* ContentView.swift */,
 				376473D129596442007F51AF /* ShapesPractice.swift */,
 				378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */,
@@ -244,6 +247,7 @@
 				376473D829598903007F51AF /* IconsPractice.swift in Sources */,
 				379977DB295D9B4B00B234D9 /* InitializerPractice.swift in Sources */,
 				378C582E2977B324000E3A9C /* TransitionPractice.swift in Sources */,
+				378C58362977E8B5000E3A9C /* ListPractice.swift in Sources */,
 				379977D7295D4B3000B234D9 /* PaddingAndSpacerPractice.swift in Sources */,
 				376473D429596FFD007F51AF /* ColorsPractice.swift in Sources */,
 				378C582429766E2E000E3A9C /* BindingPractice.swift in Sources */,
