@@ -30,6 +30,8 @@
 		378C582A2977A22F000E3A9C /* AnimationPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378C58292977A22F000E3A9C /* AnimationPractice.swift */; };
 		378C582C2977AB79000E3A9C /* AnimationTimingPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378C582B2977AB79000E3A9C /* AnimationTimingPractice.swift */; };
 		378C582E2977B324000E3A9C /* TransitionPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378C582D2977B324000E3A9C /* TransitionPractice.swift */; };
+		378C58302977CD55000E3A9C /* SheetsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378C582F2977CD55000E3A9C /* SheetsPractice.swift */; };
+		378C58322977D23F000E3A9C /* PopoverPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378C58312977D23F000E3A9C /* PopoverPractice.swift */; };
 		379977D5295D40A100B234D9 /* StacksPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977D4295D40A100B234D9 /* StacksPractice.swift */; };
 		379977D7295D4B3000B234D9 /* PaddingAndSpacerPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977D6295D4B3000B234D9 /* PaddingAndSpacerPractice.swift */; };
 		379977D9295D961400B234D9 /* SpacerPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977D8295D961400B234D9 /* SpacerPractice.swift */; };
@@ -64,6 +66,8 @@
 		378C58292977A22F000E3A9C /* AnimationPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPractice.swift; sourceTree = "<group>"; };
 		378C582B2977AB79000E3A9C /* AnimationTimingPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingPractice.swift; sourceTree = "<group>"; };
 		378C582D2977B324000E3A9C /* TransitionPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionPractice.swift; sourceTree = "<group>"; };
+		378C582F2977CD55000E3A9C /* SheetsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsPractice.swift; sourceTree = "<group>"; };
+		378C58312977D23F000E3A9C /* PopoverPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverPractice.swift; sourceTree = "<group>"; };
 		379977D4295D40A100B234D9 /* StacksPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksPractice.swift; sourceTree = "<group>"; };
 		379977D6295D4B3000B234D9 /* PaddingAndSpacerPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingAndSpacerPractice.swift; sourceTree = "<group>"; };
 		379977D8295D961400B234D9 /* SpacerPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerPractice.swift; sourceTree = "<group>"; };
@@ -127,6 +131,8 @@
 				378C58292977A22F000E3A9C /* AnimationPractice.swift */,
 				378C582B2977AB79000E3A9C /* AnimationTimingPractice.swift */,
 				378C582D2977B324000E3A9C /* TransitionPractice.swift */,
+				378C582F2977CD55000E3A9C /* SheetsPractice.swift */,
+				378C58312977D23F000E3A9C /* PopoverPractice.swift */,
 				378B584929593FA200A235C3 /* ContentView.swift */,
 				376473D129596442007F51AF /* ShapesPractice.swift */,
 				378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */,
@@ -215,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				378C58322977D23F000E3A9C /* PopoverPractice.swift in Sources */,
 				378C582229765DF6000E3A9C /* ExtractSubviewsPractice.swift in Sources */,
 				376473DA29598DEE007F51AF /* ImagesPractice.swift in Sources */,
 				378C582C2977AB79000E3A9C /* AnimationTimingPractice.swift in Sources */,
@@ -238,6 +245,7 @@
 				378C582429766E2E000E3A9C /* BindingPractice.swift in Sources */,
 				376473D029595F11007F51AF /* TextPractice.swift in Sources */,
 				379977D5295D40A100B234D9 /* StacksPractice.swift in Sources */,
+				378C58302977CD55000E3A9C /* SheetsPractice.swift in Sources */,
 				373E508A2972394400B43486 /* SafeAreaPractice.swift in Sources */,
 				378C5826297794DC000E3A9C /* ConditionalStatementsPractice.swift in Sources */,
 				373E508E29729EB300B43486 /* StatePractice.swift in Sources */,
