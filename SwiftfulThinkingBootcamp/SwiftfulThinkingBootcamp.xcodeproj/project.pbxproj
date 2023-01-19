@@ -11,6 +11,7 @@
 		373E508C29723E4000B43486 /* ButtonsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373E508B29723E4000B43486 /* ButtonsPractice.swift */; };
 		373E508E29729EB300B43486 /* StatePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373E508D29729EB300B43486 /* StatePractice.swift */; };
 		373E50902972A52E00B43486 /* ExtractedFunctionPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373E508F2972A52E00B43486 /* ExtractedFunctionPractice.swift */; };
+		37625D77297901740059F576 /* TextEditorPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37625D76297901740059F576 /* TextEditorPractice.swift */; };
 		376473D029595F11007F51AF /* TextPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473CF29595F11007F51AF /* TextPractice.swift */; };
 		376473D229596442007F51AF /* ShapesPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473D129596442007F51AF /* ShapesPractice.swift */; };
 		376473D429596FFD007F51AF /* ColorsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473D329596FFD007F51AF /* ColorsPractice.swift */; };
@@ -52,6 +53,7 @@
 		373E508B29723E4000B43486 /* ButtonsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsPractice.swift; sourceTree = "<group>"; };
 		373E508D29729EB300B43486 /* StatePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePractice.swift; sourceTree = "<group>"; };
 		373E508F2972A52E00B43486 /* ExtractedFunctionPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionPractice.swift; sourceTree = "<group>"; };
+		37625D76297901740059F576 /* TextEditorPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorPractice.swift; sourceTree = "<group>"; };
 		376473CF29595F11007F51AF /* TextPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPractice.swift; sourceTree = "<group>"; };
 		376473D129596442007F51AF /* ShapesPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesPractice.swift; sourceTree = "<group>"; };
 		376473D329596FFD007F51AF /* ColorsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsPractice.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				378C5839297822C0000E3A9C /* ActionSheetPractice.swift */,
 				378C583B2978E1B5000E3A9C /* ContextMenuPractice.swift */,
 				378C583D2978E522000E3A9C /* TextfieldPractice.swift */,
+				37625D76297901740059F576 /* TextEditorPractice.swift */,
 				378B584929593FA200A235C3 /* ContentView.swift */,
 				376473D129596442007F51AF /* ShapesPractice.swift */,
 				378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */,
@@ -239,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37625D77297901740059F576 /* TextEditorPractice.swift in Sources */,
 				378C58322977D23F000E3A9C /* PopoverPractice.swift in Sources */,
 				378C582229765DF6000E3A9C /* ExtractSubviewsPractice.swift in Sources */,
 				376473DA29598DEE007F51AF /* ImagesPractice.swift in Sources */,
