@@ -19,6 +19,7 @@
 		37625D83297ABE5A0059F576 /* StepperPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37625D82297ABE5A0059F576 /* StepperPractice.swift */; };
 		37625D85297B674E0059F576 /* SliderPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37625D84297B674E0059F576 /* SliderPractice.swift */; };
 		37625D87297B70600059F576 /* TabViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37625D86297B70600059F576 /* TabViewPractice.swift */; };
+		37625D89297B7F920059F576 /* DarkModePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37625D88297B7F920059F576 /* DarkModePractice.swift */; };
 		376473D029595F11007F51AF /* TextPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473CF29595F11007F51AF /* TextPractice.swift */; };
 		376473D229596442007F51AF /* ShapesPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473D129596442007F51AF /* ShapesPractice.swift */; };
 		376473D429596FFD007F51AF /* ColorsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473D329596FFD007F51AF /* ColorsPractice.swift */; };
@@ -68,6 +69,7 @@
 		37625D82297ABE5A0059F576 /* StepperPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperPractice.swift; sourceTree = "<group>"; };
 		37625D84297B674E0059F576 /* SliderPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderPractice.swift; sourceTree = "<group>"; };
 		37625D86297B70600059F576 /* TabViewPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPractice.swift; sourceTree = "<group>"; };
+		37625D88297B7F920059F576 /* DarkModePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModePractice.swift; sourceTree = "<group>"; };
 		376473CF29595F11007F51AF /* TextPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPractice.swift; sourceTree = "<group>"; };
 		376473D129596442007F51AF /* ShapesPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesPractice.swift; sourceTree = "<group>"; };
 		376473D329596FFD007F51AF /* ColorsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsPractice.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				37625D82297ABE5A0059F576 /* StepperPractice.swift */,
 				37625D84297B674E0059F576 /* SliderPractice.swift */,
 				37625D86297B70600059F576 /* TabViewPractice.swift */,
+				37625D88297B7F920059F576 /* DarkModePractice.swift */,
 				378B584929593FA200A235C3 /* ContentView.swift */,
 				376473D129596442007F51AF /* ShapesPractice.swift */,
 				378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */,
@@ -275,6 +278,7 @@
 				37625D87297B70600059F576 /* TabViewPractice.swift in Sources */,
 				378C583829781C94000E3A9C /* AlertPractice.swift in Sources */,
 				378C58342977D8AE000E3A9C /* NavigationViewPractice.swift in Sources */,
+				37625D89297B7F920059F576 /* DarkModePractice.swift in Sources */,
 				379977D9295D961400B234D9 /* SpacerPractice.swift in Sources */,
 				378B584A29593FA200A235C3 /* ContentView.swift in Sources */,
 				373E50902972A52E00B43486 /* ExtractedFunctionPractice.swift in Sources */,
