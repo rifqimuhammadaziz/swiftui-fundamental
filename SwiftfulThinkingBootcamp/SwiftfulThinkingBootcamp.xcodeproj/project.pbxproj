@@ -23,6 +23,7 @@
 		37625D8B297B835F0059F576 /* DocumentationPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37625D8A297B835F0059F576 /* DocumentationPractice.swift */; };
 		37625D8D297B99AA0059F576 /* OnAppearPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37625D8C297B99AA0059F576 /* OnAppearPractice.swift */; };
 		37625D8F297BACA00059F576 /* IfLetGuardPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37625D8E297BACA00059F576 /* IfLetGuardPractice.swift */; };
+		37625D91297BBD830059F576 /* TapGesturePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37625D90297BBD830059F576 /* TapGesturePractice.swift */; };
 		376473D029595F11007F51AF /* TextPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473CF29595F11007F51AF /* TextPractice.swift */; };
 		376473D229596442007F51AF /* ShapesPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473D129596442007F51AF /* ShapesPractice.swift */; };
 		376473D429596FFD007F51AF /* ColorsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473D329596FFD007F51AF /* ColorsPractice.swift */; };
@@ -76,6 +77,7 @@
 		37625D8A297B835F0059F576 /* DocumentationPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentationPractice.swift; sourceTree = "<group>"; };
 		37625D8C297B99AA0059F576 /* OnAppearPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearPractice.swift; sourceTree = "<group>"; };
 		37625D8E297BACA00059F576 /* IfLetGuardPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuardPractice.swift; sourceTree = "<group>"; };
+		37625D90297BBD830059F576 /* TapGesturePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGesturePractice.swift; sourceTree = "<group>"; };
 		376473CF29595F11007F51AF /* TextPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPractice.swift; sourceTree = "<group>"; };
 		376473D129596442007F51AF /* ShapesPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesPractice.swift; sourceTree = "<group>"; };
 		376473D329596FFD007F51AF /* ColorsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsPractice.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				37625D8A297B835F0059F576 /* DocumentationPractice.swift */,
 				37625D8C297B99AA0059F576 /* OnAppearPractice.swift */,
 				37625D8E297BACA00059F576 /* IfLetGuardPractice.swift */,
+				37625D90297BBD830059F576 /* TapGesturePractice.swift */,
 				378B584929593FA200A235C3 /* ContentView.swift */,
 				376473D129596442007F51AF /* ShapesPractice.swift */,
 				378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */,
@@ -304,6 +307,7 @@
 				379977DB295D9B4B00B234D9 /* InitializerPractice.swift in Sources */,
 				378C582E2977B324000E3A9C /* TransitionPractice.swift in Sources */,
 				378C58362977E8B5000E3A9C /* ListPractice.swift in Sources */,
+				37625D91297BBD830059F576 /* TapGesturePractice.swift in Sources */,
 				37625D8B297B835F0059F576 /* DocumentationPractice.swift in Sources */,
 				379977D7295D4B3000B234D9 /* PaddingAndSpacerPractice.swift in Sources */,
 				376473D429596FFD007F51AF /* ColorsPractice.swift in Sources */,
