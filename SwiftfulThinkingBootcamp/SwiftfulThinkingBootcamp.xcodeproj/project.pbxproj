@@ -25,6 +25,7 @@
 		37625D8F297BACA00059F576 /* IfLetGuardPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37625D8E297BACA00059F576 /* IfLetGuardPractice.swift */; };
 		37625D91297BBD830059F576 /* TapGesturePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37625D90297BBD830059F576 /* TapGesturePractice.swift */; };
 		37625D93297BCE090059F576 /* ModelPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37625D92297BCE090059F576 /* ModelPractice.swift */; };
+		37625D95297E2F8C0059F576 /* ViewModelPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37625D94297E2F8C0059F576 /* ViewModelPractice.swift */; };
 		376473D029595F11007F51AF /* TextPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473CF29595F11007F51AF /* TextPractice.swift */; };
 		376473D229596442007F51AF /* ShapesPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473D129596442007F51AF /* ShapesPractice.swift */; };
 		376473D429596FFD007F51AF /* ColorsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473D329596FFD007F51AF /* ColorsPractice.swift */; };
@@ -80,6 +81,7 @@
 		37625D8E297BACA00059F576 /* IfLetGuardPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuardPractice.swift; sourceTree = "<group>"; };
 		37625D90297BBD830059F576 /* TapGesturePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGesturePractice.swift; sourceTree = "<group>"; };
 		37625D92297BCE090059F576 /* ModelPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPractice.swift; sourceTree = "<group>"; };
+		37625D94297E2F8C0059F576 /* ViewModelPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelPractice.swift; sourceTree = "<group>"; };
 		376473CF29595F11007F51AF /* TextPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPractice.swift; sourceTree = "<group>"; };
 		376473D129596442007F51AF /* ShapesPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesPractice.swift; sourceTree = "<group>"; };
 		376473D329596FFD007F51AF /* ColorsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsPractice.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				37625D8E297BACA00059F576 /* IfLetGuardPractice.swift */,
 				37625D90297BBD830059F576 /* TapGesturePractice.swift */,
 				37625D92297BCE090059F576 /* ModelPractice.swift */,
+				37625D94297E2F8C0059F576 /* ViewModelPractice.swift */,
 				378B584929593FA200A235C3 /* ContentView.swift */,
 				376473D129596442007F51AF /* ShapesPractice.swift */,
 				378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */,
@@ -318,6 +321,7 @@
 				378C583A297822C0000E3A9C /* ActionSheetPractice.swift in Sources */,
 				378C582429766E2E000E3A9C /* BindingPractice.swift in Sources */,
 				376473D029595F11007F51AF /* TextPractice.swift in Sources */,
+				37625D95297E2F8C0059F576 /* ViewModelPractice.swift in Sources */,
 				379977D5295D40A100B234D9 /* StacksPractice.swift in Sources */,
 				37625D93297BCE090059F576 /* ModelPractice.swift in Sources */,
 				378C58302977CD55000E3A9C /* SheetsPractice.swift in Sources */,
