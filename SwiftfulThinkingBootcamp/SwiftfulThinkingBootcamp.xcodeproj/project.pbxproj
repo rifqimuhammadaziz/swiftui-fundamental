@@ -36,6 +36,7 @@
 		376473DA29598DEE007F51AF /* ImagesPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473D929598DEE007F51AF /* ImagesPractice.swift */; };
 		376473DC295997CA007F51AF /* FramePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473DB295997CA007F51AF /* FramePractice.swift */; };
 		376473DE29599C3A007F51AF /* BackgroundAndOverlayPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376473DD29599C3A007F51AF /* BackgroundAndOverlayPractice.swift */; };
+		378547F3298098A6006D1E30 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378547F2298098A6006D1E30 /* ProfileView.swift */; };
 		378B584829593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */; };
 		378B584A29593FA200A235C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378B584929593FA200A235C3 /* ContentView.swift */; };
 		378B584C29593FA400A235C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378B584B29593FA400A235C3 /* Assets.xcassets */; };
@@ -60,6 +61,8 @@
 		379977D9295D961400B234D9 /* SpacerPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977D8295D961400B234D9 /* SpacerPractice.swift */; };
 		379977DB295D9B4B00B234D9 /* InitializerPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379977DA295D9B4B00B234D9 /* InitializerPractice.swift */; };
 		379B655129693B7A00CC26A3 /* ForEachPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B655029693B7A00CC26A3 /* ForEachPractice.swift */; };
+		37CA9E68297EAAFF00F16BAD /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA9E67297EAAFF00F16BAD /* IntroView.swift */; };
+		37CA9E6A297EAC9900F16BAD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA9E69297EAC9900F16BAD /* OnboardingView.swift */; };
 		37DB4D68296D04B000947F63 /* ScrollViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DB4D67296D04B000947F63 /* ScrollViewPractice.swift */; };
 		37DB4D6A296D128B00947F63 /* GridPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DB4D69296D128B00947F63 /* GridPractice.swift */; };
 /* End PBXBuildFile section */
@@ -94,6 +97,7 @@
 		376473D929598DEE007F51AF /* ImagesPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesPractice.swift; sourceTree = "<group>"; };
 		376473DB295997CA007F51AF /* FramePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramePractice.swift; sourceTree = "<group>"; };
 		376473DD29599C3A007F51AF /* BackgroundAndOverlayPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayPractice.swift; sourceTree = "<group>"; };
+		378547F2298098A6006D1E30 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		378B584429593FA200A235C3 /* SwiftfulThinkingBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingBootcampApp.swift; sourceTree = "<group>"; };
 		378B584929593FA200A235C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 		379977D8295D961400B234D9 /* SpacerPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerPractice.swift; sourceTree = "<group>"; };
 		379977DA295D9B4B00B234D9 /* InitializerPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerPractice.swift; sourceTree = "<group>"; };
 		379B655029693B7A00CC26A3 /* ForEachPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachPractice.swift; sourceTree = "<group>"; };
+		37CA9E67297EAAFF00F16BAD /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		37CA9E69297EAC9900F16BAD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		37DB4D67296D04B000947F63 /* ScrollViewPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPractice.swift; sourceTree = "<group>"; };
 		37DB4D69296D128B00947F63 /* GridPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridPractice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -202,6 +208,7 @@
 				37625D94297E2F8C0059F576 /* ViewModelPractice.swift */,
 				37625D96297E45510059F576 /* EnvironmentObjectPractice.swift */,
 				37625D98297E7FD00059F576 /* AppStoragePractice.swift */,
+				37CA9E66297EAAE200F16BAD /* UnboardingViews */,
 				378B584929593FA200A235C3 /* ContentView.swift */,
 				376473D129596442007F51AF /* ShapesPractice.swift */,
 				378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */,
@@ -218,6 +225,16 @@
 				378B584E29593FA400A235C3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37CA9E66297EAAE200F16BAD /* UnboardingViews */ = {
+			isa = PBXGroup;
+			children = (
+				37CA9E67297EAAFF00F16BAD /* IntroView.swift */,
+				37CA9E69297EAC9900F16BAD /* OnboardingView.swift */,
+				378547F2298098A6006D1E30 /* ProfileView.swift */,
+			);
+			path = UnboardingViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +330,7 @@
 				373E508C29723E4000B43486 /* ButtonsPractice.swift in Sources */,
 				37DB4D68296D04B000947F63 /* ScrollViewPractice.swift in Sources */,
 				37625D85297B674E0059F576 /* SliderPractice.swift in Sources */,
+				37CA9E68297EAAFF00F16BAD /* IntroView.swift in Sources */,
 				376473D229596442007F51AF /* ShapesPractice.swift in Sources */,
 				376473D829598903007F51AF /* IconsPractice.swift in Sources */,
 				37625D7F29796BBF0059F576 /* ColorPickerPractice.swift in Sources */,
@@ -329,9 +347,11 @@
 				378C582429766E2E000E3A9C /* BindingPractice.swift in Sources */,
 				376473D029595F11007F51AF /* TextPractice.swift in Sources */,
 				37625D95297E2F8C0059F576 /* ViewModelPractice.swift in Sources */,
+				378547F3298098A6006D1E30 /* ProfileView.swift in Sources */,
 				379977D5295D40A100B234D9 /* StacksPractice.swift in Sources */,
 				37625D93297BCE090059F576 /* ModelPractice.swift in Sources */,
 				378C58302977CD55000E3A9C /* SheetsPractice.swift in Sources */,
+				37CA9E6A297EAC9900F16BAD /* OnboardingView.swift in Sources */,
 				373E508A2972394400B43486 /* SafeAreaPractice.swift in Sources */,
 				378C5826297794DC000E3A9C /* ConditionalStatementsPractice.swift in Sources */,
 				37625D7929790F9A0059F576 /* TogglePractice.swift in Sources */,
