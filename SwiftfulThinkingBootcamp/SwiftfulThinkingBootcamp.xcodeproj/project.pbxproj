@@ -39,6 +39,7 @@
 		378547F3298098A6006D1E30 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378547F2298098A6006D1E30 /* ProfileView.swift */; };
 		378547F52980DDE1006D1E30 /* AsyncImagePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378547F42980DDE1006D1E30 /* AsyncImagePractice.swift */; };
 		378547F72980EBDD006D1E30 /* BackgroundMaterialsPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378547F62980EBDD006D1E30 /* BackgroundMaterialsPractice.swift */; };
+		378547F92981068D006D1E30 /* TextSelectionPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378547F82981068D006D1E30 /* TextSelectionPractice.swift */; };
 		378B584829593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */; };
 		378B584A29593FA200A235C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378B584929593FA200A235C3 /* ContentView.swift */; };
 		378B584C29593FA400A235C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378B584B29593FA400A235C3 /* Assets.xcassets */; };
@@ -102,6 +103,7 @@
 		378547F2298098A6006D1E30 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		378547F42980DDE1006D1E30 /* AsyncImagePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImagePractice.swift; sourceTree = "<group>"; };
 		378547F62980EBDD006D1E30 /* BackgroundMaterialsPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMaterialsPractice.swift; sourceTree = "<group>"; };
+		378547F82981068D006D1E30 /* TextSelectionPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionPractice.swift; sourceTree = "<group>"; };
 		378B584429593FA200A235C3 /* SwiftfulThinkingBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingBootcampApp.swift; sourceTree = "<group>"; };
 		378B584929593FA200A235C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 				378B584D29593FA400A235C3 /* Preview Content */,
 				378547F42980DDE1006D1E30 /* AsyncImagePractice.swift */,
 				378547F62980EBDD006D1E30 /* BackgroundMaterialsPractice.swift */,
+				378547F82981068D006D1E30 /* TextSelectionPractice.swift */,
 			);
 			path = SwiftfulThinkingBootcamp;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				37625D7F29796BBF0059F576 /* ColorPickerPractice.swift in Sources */,
 				379977DB295D9B4B00B234D9 /* InitializerPractice.swift in Sources */,
 				378C582E2977B324000E3A9C /* TransitionPractice.swift in Sources */,
+				378547F92981068D006D1E30 /* TextSelectionPractice.swift in Sources */,
 				378C58362977E8B5000E3A9C /* ListPractice.swift in Sources */,
 				37625D97297E45510059F576 /* EnvironmentObjectPractice.swift in Sources */,
 				37625D91297BBD830059F576 /* TapGesturePractice.swift in Sources */,
