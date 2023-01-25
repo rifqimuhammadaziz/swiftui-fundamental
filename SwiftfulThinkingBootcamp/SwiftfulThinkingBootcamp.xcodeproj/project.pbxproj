@@ -42,6 +42,7 @@
 		378547F92981068D006D1E30 /* TextSelectionPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378547F82981068D006D1E30 /* TextSelectionPractice.swift */; };
 		378547FB298107D5006D1E30 /* ButtonStylesPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378547FA298107D5006D1E30 /* ButtonStylesPractice.swift */; };
 		378547FD29810C13006D1E30 /* ListSwipeActionPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378547FC29810C13006D1E30 /* ListSwipeActionPractice.swift */; };
+		378547FF2981435F006D1E30 /* BadgesPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378547FE2981435F006D1E30 /* BadgesPractice.swift */; };
 		378B584829593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */; };
 		378B584A29593FA200A235C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378B584929593FA200A235C3 /* ContentView.swift */; };
 		378B584C29593FA400A235C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378B584B29593FA400A235C3 /* Assets.xcassets */; };
@@ -108,6 +109,7 @@
 		378547F82981068D006D1E30 /* TextSelectionPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionPractice.swift; sourceTree = "<group>"; };
 		378547FA298107D5006D1E30 /* ButtonStylesPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylesPractice.swift; sourceTree = "<group>"; };
 		378547FC29810C13006D1E30 /* ListSwipeActionPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipeActionPractice.swift; sourceTree = "<group>"; };
+		378547FE2981435F006D1E30 /* BadgesPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesPractice.swift; sourceTree = "<group>"; };
 		378B584429593FA200A235C3 /* SwiftfulThinkingBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingBootcampApp.swift; sourceTree = "<group>"; };
 		378B584929593FA200A235C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 				378547F82981068D006D1E30 /* TextSelectionPractice.swift */,
 				378547FA298107D5006D1E30 /* ButtonStylesPractice.swift */,
 				378547FC29810C13006D1E30 /* ListSwipeActionPractice.swift */,
+				378547FE2981435F006D1E30 /* BadgesPractice.swift */,
 			);
 			path = SwiftfulThinkingBootcamp;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 				379977DB295D9B4B00B234D9 /* InitializerPractice.swift in Sources */,
 				378C582E2977B324000E3A9C /* TransitionPractice.swift in Sources */,
 				378547F92981068D006D1E30 /* TextSelectionPractice.swift in Sources */,
+				378547FF2981435F006D1E30 /* BadgesPractice.swift in Sources */,
 				378C58362977E8B5000E3A9C /* ListPractice.swift in Sources */,
 				37625D97297E45510059F576 /* EnvironmentObjectPractice.swift in Sources */,
 				37625D91297BBD830059F576 /* TapGesturePractice.swift in Sources */,
