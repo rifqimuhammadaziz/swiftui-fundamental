@@ -43,6 +43,7 @@
 		378547FB298107D5006D1E30 /* ButtonStylesPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378547FA298107D5006D1E30 /* ButtonStylesPractice.swift */; };
 		378547FD29810C13006D1E30 /* ListSwipeActionPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378547FC29810C13006D1E30 /* ListSwipeActionPractice.swift */; };
 		378547FF2981435F006D1E30 /* BadgesPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378547FE2981435F006D1E30 /* BadgesPractice.swift */; };
+		37854801298146B1006D1E30 /* FocusStatePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37854800298146B1006D1E30 /* FocusStatePractice.swift */; };
 		378B584829593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */; };
 		378B584A29593FA200A235C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378B584929593FA200A235C3 /* ContentView.swift */; };
 		378B584C29593FA400A235C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378B584B29593FA400A235C3 /* Assets.xcassets */; };
@@ -110,6 +111,7 @@
 		378547FA298107D5006D1E30 /* ButtonStylesPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylesPractice.swift; sourceTree = "<group>"; };
 		378547FC29810C13006D1E30 /* ListSwipeActionPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipeActionPractice.swift; sourceTree = "<group>"; };
 		378547FE2981435F006D1E30 /* BadgesPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesPractice.swift; sourceTree = "<group>"; };
+		37854800298146B1006D1E30 /* FocusStatePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStatePractice.swift; sourceTree = "<group>"; };
 		378B584429593FA200A235C3 /* SwiftfulThinkingBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		378B584729593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingBootcampApp.swift; sourceTree = "<group>"; };
 		378B584929593FA200A235C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 				378547FA298107D5006D1E30 /* ButtonStylesPractice.swift */,
 				378547FC29810C13006D1E30 /* ListSwipeActionPractice.swift */,
 				378547FE2981435F006D1E30 /* BadgesPractice.swift */,
+				37854800298146B1006D1E30 /* FocusStatePractice.swift */,
 			);
 			path = SwiftfulThinkingBootcamp;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				37625D89297B7F920059F576 /* DarkModePractice.swift in Sources */,
 				378547F52980DDE1006D1E30 /* AsyncImagePractice.swift in Sources */,
 				379977D9295D961400B234D9 /* SpacerPractice.swift in Sources */,
+				37854801298146B1006D1E30 /* FocusStatePractice.swift in Sources */,
 				378B584A29593FA200A235C3 /* ContentView.swift in Sources */,
 				373E50902972A52E00B43486 /* ExtractedFunctionPractice.swift in Sources */,
 				378B584829593FA200A235C3 /* SwiftfulThinkingBootcampApp.swift in Sources */,
